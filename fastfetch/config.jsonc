@@ -1,0 +1,6 @@
+{
+    "logo": "opensuse",
+    "logo-color-1": "green",
+    "modules": ["title", "os", "kernel", "cpu", "memory"],
+    "color-keys": "green"
+}

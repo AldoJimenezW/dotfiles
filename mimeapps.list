@@ -1,0 +1,13 @@
+[Default Applications]
+x-scheme-handler/http=vivaldi-stable.desktop
+application/xhtml+xml=com.vivaldi.Vivaldi.desktop
+text/html=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+x-scheme-handler/about=vivaldi-stable.desktop
+x-scheme-handler/unknown=vivaldi-stable.desktop
+
+[Added Associations]
+x-scheme-handler/http=com.vivaldi.Vivaldi.desktop;
+application/xhtml+xml=com.vivaldi.Vivaldi.desktop;
+text/html=com.vivaldi.Vivaldi.desktop;
+x-scheme-handler/https=com.vivaldi.Vivaldi.desktop;

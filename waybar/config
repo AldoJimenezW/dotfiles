@@ -1,0 +1,82 @@
+{
+    "layer": "top",
+    "position": "left",
+    "width": 40,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["pulseaudio", "network", "battery", "custom/power"],
+    
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": "🌲",
+            "2": "🏔️", 
+            "3": "🪨",
+            "4": "🍃",
+            "5": "🌿",
+            "active": "🌱",
+            "default": "⬜"
+        },
+        "sort-by-number": true
+    },
+    
+    "clock": {
+        "format": "{:%H:%M\n%d\n%b}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"           : "year",
+            "mode-mon-col"   : 3,
+            "weeks-pos"      : "right",
+            "on-scroll"      : 1,
+            "format": {
+                "months":     "<span color='#8B4513'><b>{}</b></span>",
+                "days":       "<span color='#2E8B57'><b>{}</b></span>",
+                "weeks":      "<span color='#696969'><b>W{}</b></span>",
+                "weekdays":   "<span color='#4682B4'><b>{}</b></span>",
+                "today":      "<span color='#228B22'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+    
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "🔇 0%",
+        "format-icons": {
+            "default": ["🔈", "🔉", "🔊"]
+        },
+        "on-click": "pavucontrol"
+    },
+    
+    "network": {
+        "format-wifi": "🌐 {signalStrength}%",
+        "format-ethernet": "🌐 100%",
+        "format-disconnected": "🌐 0%",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+        "on-click": "nm-connection-editor"
+    },
+    
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}%",
+        "format-charging": "⚡ {capacity}%",
+        "format-plugged": "🔌 {capacity}%",
+        "format-icons": [
+            "🍂",  // 0-10%
+            "🌱",  // 10-20%
+            "🌿",  // 20-30%
+            "🌳",  // 30-40%
+            "🏔️"   // 40-100%
+        ],
+        "format-alt": "{icon} {time}"
+    },
+    
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout",
+        "tooltip": "Opciones de energía"
+    }
+}

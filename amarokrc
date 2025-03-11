@@ -1,0 +1,66 @@
+[Collection Browser]
+TreeCategory=3,1
+View Mode=NormalCollections
+
+[Collection Folders]
+1=home/aldo/Music
+
+[Context]
+org.kde.amarok.currenttrack_contentHeight=300
+
+[File Browser]
+Current Directory=file:///home/aldo
+
+[General]
+Browser Path=root list/collections
+First Run=false
+HiddenOnExit=true
+
+[General Options]
+PlayFirstRunJingle=false
+
+[MainWindow]
+1920x1080 screen: Height=767
+1920x1080 screen: Width=1381
+1920x1080 screen: XPosition=336
+1920x1080 screen: YPosition=114
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAQAAAAAAAAVlAAACmPwBAAAAA/sAAAAkAE0AZQBkAGkAYQAgAFMAbwB1AHIAYwBlAHMAIABkAG8AYwBrAQAAAAAAAAFRAAAAyAAH///7AAAAGABDAG8AbgB0AGUAeAB0ACAAZABvAGMAawEAAAFXAAACtQAAAZAAB///+wAAABoAUABsAGEAeQBsAGkAcwB0ACAAZABvAGMAawEAAAQSAAABUwAAAMgAB///AAAAAAAAABIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYATQBhAGkAbgBUAG8AbwBsAGIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAFMAbABpAG0AIABUAG8AbwBsAGIAYQByAAAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+eDP-1=eDP-1
+
+[Playback]
+Master Volume=63
+
+[Playlist Search]
+MatchAlbum=true
+MatchArtist=true
+MatchTrack=true
+ShowOnlyMatches=false
+
+[Playlist Sorting]
+SortPath=
+
+[Podcast View]
+Merged View=false
+
+[Podcasts]
+AutoUpdate Interval=30
+Maximum Simultaneous Downloads=4
+Maximum Simultaneous Updates=4
+
+[Saved Playlists View]
+Merged View=false
+
+[ScriptManager]
+Enable Scripts=true
+
+[Session]
+LastPlaying=0
+
+[StatSyncing]
+checkedFields=rating,firstplay,lastplay,playcount,label
+excludedLabels=
+providerEnabledStatuses=true,true
+providerIds=amarok-ipodtrackuid://9737-d3cd,localCollection
+providerNames=Aldo: Invalid,Local Collection
